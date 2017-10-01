@@ -15,10 +15,10 @@ namespace ASPNETCOREDEMO.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Afraz", "Afreen", "ASHA", "KATHER", "Shanu" };
         }
 
-        // GET api/values/5
+        /*// GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
         {
@@ -41,6 +41,6 @@ namespace ASPNETCOREDEMO.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
+        }*/
     }
 }
